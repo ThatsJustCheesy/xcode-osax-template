@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<dictionary title="___PACKAGENAME___">
+	<suite name="___PACKAGENAME___ Suite" code="code" description="Commands added by the ___PACKAGENAME___ scripting addition.">
+		<command name="return true" code="ScrARtnT" description="Returns true.">
+			<result type="boolean" description="A boolean with a value of true."/>
+		</command>
+	</suite>
+</dictionary>
