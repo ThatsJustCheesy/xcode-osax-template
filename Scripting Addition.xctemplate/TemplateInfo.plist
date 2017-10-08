@@ -14,7 +14,7 @@
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
-	<string>Builds a scripting addition (osax) bundle.</string>
+	<string>This template builds a scripting addition (OSAX) bundle.</string>
 	<key>SortOrder</key>
 	<integer>0</integer>
 	<key>Targets</key>
@@ -26,8 +26,12 @@
 			<string>com.apple.dt.bundleTarget</string>
 			<key>SharedSettings</key>
 			<dict>
+				<key>DSTROOT</key>
+				<string>/</string>
+				<key>DEPLOYMENT_LOCATION</key>
+				<string>YES</string>
 				<key>INSTALL_PATH</key>
-				<string>$(SYSTEM_LIBRARY_DIR)/ScriptingAdditions</string>
+				<string>$(USER_LIBRARY_DIR)/ScriptingAdditions</string>
 				<key>SKIP_INSTALL</key>
 				<string>NO</string>
 				<key>WRAPPER_EXTENSION</key>
