@@ -1,13 +1,11 @@
-Xcode: The Missing Templates
-============================
-#### Useful project templates that really should have been part of Xcode itself
+# Xcode OSAX template
 
+## Xcode project template that builds a scripting addition
 
-Current Templates
------------------
-As of right now, there is only one template here. But expect more soon!
+First, a historical note: I created this mostly out of curiosity for how to build a third-party scripting addition for AppleScript, and it taught me a lot. Nevertheless, you very likely have little to no use for this, as third-party scripting additions are all but dead as of macOS 10.14.
 
-### Scripting Addition (OSAX) Bundle Template
+Regardless, here is the original text of this repo's README:
+
 This template revives the ancient art of writing Scripting Additions for AppleScript and the OSA. While it has been done before, there aren't many examples to go by, and only one of these examples is open source (that I know of; they're pretty hard to find). In addition, many of the vital resources that cover using Carbon APIs (still required for most things OSA) have been hidden or wiped entirely from Apple's Developer website. Finally, a lot of the old AppleScript communities that people used to share their stuff on are largely gone or no longer updated with the latest info (osaxen.com in particular). This makes getting off your feet with an OSA Scripting Addition bundle pretty tough. There _is still_ enough material out there to learn how to make one; it's just pretty tough to find. I'm here to help you with that.
 
 This template provides a starting point for writing scripting additions for the OSA. It includes a predefined convenience macro for Apple Event handler functions that you would otherwise have to go digging deep into some old documents to find. It includes one very simple, yet fully functioning Event handler that gives you a starting point for writing your own code. And finally, this template takes care of all the annoying quirks about 'aete' resources and whatnot carried over from the Classic Mac OS, by including the extra Build Phases required to make a Scripting Addition functional.
